@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="xyz.smartkettlemasters.magistrinioarbatinukas">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MagistrinioArbatinukas"
+        tools:targetApi="31">
+        <activity
+            android:name=".Gerimo_validacija"
+            android:exported="false" />
+        <activity
+            android:name=".Pasirinkti_gerima2"
+            android:exported="false" />
+        <activity
+            android:name=".Pasirinkti_gerima"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Tolesne_komunikacijos_priemone"
+            android:exported="false" />
+        <activity
+            android:name=".Priemone_komunikacijos"
+            android:exported="false" />
+        <activity
+            android:name=".page_2"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.MagistrinioArbatinukas.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
